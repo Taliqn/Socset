@@ -1,0 +1,13 @@
+.Footer {
+    grid-area: f;
+    padding: 20px;
+    background: rgb(74, 118, 168);
+}
+
+
+
+.item {
+color: white;
+}
+
+

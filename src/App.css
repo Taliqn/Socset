@@ -1,0 +1,57 @@
+.app-wrapper {
+    display: grid;
+    grid-template-areas: 
+        "a h h"
+        "a n ad"
+        "a f f";
+       
+    grid-template-rows: 10% 10fr 1fr;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-gap: 3px;
+    height: 100vh;
+    margin: 0;
+
+
+
+}
+
+.app-wrapper-content {
+    grid-area: n;
+    padding: 20px;
+    background-color: rgb(74, 118, 168);
+
+
+}
+
+.item {
+    color: #7288ff;
+}
+
+  .item.active   {
+        color: blanchedalmond;
+    }
+
+
+
+
+
+.Nav img {
+    width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

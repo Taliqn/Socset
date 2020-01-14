@@ -1,0 +1,11 @@
+.Nav {
+    grid-area: n;
+    padding: 20px;
+    background: rgb(74, 118, 168);
+
+}
+
+
+.postsBlock {
+    position: relative;
+}

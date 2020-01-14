@@ -1,0 +1,20 @@
+.News {
+    grid-area: n;
+    padding: 20px;
+    background: none;
+}
+
+
+.item {
+
+    color: gold;
+}
+
+    .item.active {
+        color: blanchedalmond;
+    }
+
+
+
+
+
