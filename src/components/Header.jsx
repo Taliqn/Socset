@@ -7,7 +7,7 @@ import Particles from 'react-particles-js';
 const Header = () => {
     return (
         <div className={classes.Header}>
-            Header
+            IT Consulting
             <Particles
                 params={{
                     "particles": {
