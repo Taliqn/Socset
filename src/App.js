@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
@@ -13,6 +12,7 @@ import dialogsReducer from "./redux/dialogs-reducer";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import Dialogs from "./components/Dialogs/Dialogs";
 import Users from "./components/Users/Users";
+import UsersContainer from "./components/Users/UsersContainer";
 
 
 const App = (props) => {
@@ -38,7 +38,7 @@ const App = (props) => {
                            render={() => <News/>}/>
 
                     <Route path='/Users'
-                           render={() =><div><Users/></div> }/>
+                           render={() => <UsersContainer/> }/>
                 </div>
             </div>
         </BrowserRouter>
