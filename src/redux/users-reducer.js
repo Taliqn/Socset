@@ -4,9 +4,6 @@ const UNFOLLOW = 'UNFOLLOW';
 
 let initialState = {
     users: [
-        {id: 1, photoUrl: 'https://sun9-70.userapi.com/impg/c856136/v856136073/1b4f63/KS5sLpvgpi0.jpg?size=200x0&quality=90&sign=74be1291c0d6839466512a9a0393363b', followed:false, fullName: 'Roman', status: 'Boss', location: {city: 'Moscow',country: 'Russia'} },
-        {id: 2, photoUrl:  'https://sun9-70.userapi.com/impg/c856136/v856136073/1b4f63/KS5sLpvgpi0.jpg?size=200x0&quality=90&sign=74be1291c0d6839466512a9a0393363b', followed:true,  fullName: 'Denis', status: 'Boss', location: {city: 'Saint-Petersburg',country: 'Russia'} },
-        {id: 3, photoUrl:  'https://sun9-70.userapi.com/impg/c856136/v856136073/1b4f63/KS5sLpvgpi0.jpg?size=200x0&quality=90&sign=74be1291c0d6839466512a9a0393363b', followed:false, fullName: 'Nasty', status: 'Boss', location: {city: 'Kiev',country: 'Russia'} }
 
     ]
 };
