@@ -1,17 +1,15 @@
 .app-wrapper {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "a h h"
         "a n ad"
         "a f f";
-       
+
     grid-template-rows: 10% 10fr 1fr;
     grid-template-columns: 1fr 10fr 1fr;
     grid-gap: 3px;
     height: 100vh;
     margin: 0;
-
-
 
 }
 
@@ -22,6 +20,8 @@
 
 
 }
+
+
 
 .item {
     color: #7288ff;

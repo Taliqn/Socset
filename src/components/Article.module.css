@@ -1,32 +1,38 @@
 .Article {
     grid-area: a;
-    padding: 20px;
-    background: rgb(74, 118, 168);
+    padding: 10px;
+    background-color: rgb(74, 118, 168);
+
+}
+
+.bloc {
+    position: fixed;
 
 }
 
 .item1 a {
     color: white;
     text-decoration: none;
-    position: relative;
+   position: relative;
+
 }
 
 .item2 a {
     color: white;
     text-decoration: none;
-    position: relative;
+    /*position: relative;*/
 }
 
 .item3 a {
     color: white;
     text-decoration: none;
-    position: relative;
+   /* position: relative;*/
 }
 
 .item4 a {
     color: white;
     text-decoration: none;
-    position: relative;
+    /*position: relative;*/
 }
 a.activeLink {
     color: gold;

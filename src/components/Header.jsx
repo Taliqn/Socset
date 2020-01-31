@@ -1,14 +1,17 @@
 import React from 'react';
-import classes from './Header.module.css';
+import s from './Header.module.css';
 import Particles from 'react-particles-js';
 
 
 
 const Header = () => {
     return (
-        <div className={classes.Header}>
+
+        <div className={s.Header}>
+<div className={s.it}>
             IT Consulting
-            <Particles
+
+            {/*<Particles
                 params={{
                     "particles": {
                         "number": {
@@ -59,10 +62,10 @@ const Header = () => {
                             }
                         }
                     }
-                }} />
+                }} />*/}
 
+        </div>
 
-            
       </div> );
  }           
 

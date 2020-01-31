@@ -6,6 +6,7 @@ const Article = () => {
     return (
 
         <div className={s.Article}>
+            <div className={s.bloc}>
            <h1>Main</h1>
             <div className={s.item1}>
                 <NavLink to="/News/" activeClassName={s.activeLink}> News</NavLink>
@@ -19,6 +20,7 @@ const Article = () => {
             <div className={s.item4} >
                 <NavLink to="/Users" activeClassName={s.activeLink}> Users</NavLink>
             </div>
+        </div>
           </div>);   
             
 }
